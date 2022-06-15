@@ -1,0 +1,530 @@
+* {
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* navbar */ 
+
+nav {
+  width: 100%;
+}
+nav .midle-nav{
+  float: right ;
+}
+nav .midle-nav li{
+  display: inline-block;
+  list-style: none;  
+}
+nav .midle-nav li a{
+  color: #000;
+  font-family: 'poppins';
+  font-weight:600 ;
+  text-decoration: none;
+}
+nav .midle-nav li a:hover{
+  color: #144f9b;
+  border-bottom: 1px solid #144f9b;
+}
+.checkbtn{
+  font-size : 30px;
+  float: right;
+  cursor: pointer;
+  display: none;
+
+}
+#check{
+  display: none;
+}
+
+
+/* buttons */
+.btn {
+  background: #144f9b;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 10px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  letter-spacing: 1px;
+}
+
+/* sections */
+section {
+  margin-top: 10%;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row .col50 {
+  position: relative;
+  width: 48%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* first-section */
+.first-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 130px;
+}
+
+
+.row .col50 h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 60px;
+  color: #000000;
+  margin-top: 5%;
+}
+.row .col25 h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 60px;
+  color: #000000;
+  margin-top: 5%;
+}
+.row .col50 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 75%;
+}
+
+
+.livraison {
+  background: rgba(20, 79, 155, 0.1);
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 10%;
+  align-items: center;
+}
+
+/* second-section */
+.second-section .row .rect1 {
+  position: absolute;
+}
+
+.second-section .row .rect2 {
+  position: absolute;
+  left: 37.37px;
+  top: 58.92px;
+}
+
+.second-section .row .partenariat {
+  margin-top: 5%;
+}
+
+/* third-sectin */
+.service {
+  margin-top: 5%;
+}
+
+.service .row .col75 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 81px;
+  width: 65%;
+  height: 446px;
+}
+.service p{
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+
+.service .row .col75 .midle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  width: 356px;
+  height: 446px;
+}
+.row .col75 .midle .box {
+  display: flex;
+  flex-direction: column;
+}
+
+.row .col75 .midle .box-line {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.ellipse {
+  width: 70px;
+  height: 70px;
+  background: rgba(20, 79, 155, 0.2);
+  border-radius: 50%;
+}
+
+
+.fourth-section{
+  margin-top: 20%;
+}
+
+/* fifth-section */
+.blue {
+  position: relative;
+  margin-top: 10%;
+  margin-bottom: 100px;
+  left: 0px;
+  height: 280px;
+  background-color: #144f9b;
+}
+h4{
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+.blue-section .part1 p {
+  width: 353px;
+  height: 80px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.blue-section .part1 #btn {
+  display: flex;
+  flex-direction: row;
+}
+
+.blue-section .part1 #btn a{
+  text-decoration: none;
+}
+button {
+  background-color: #000;
+  width: 190px;
+  height: 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.blue-section .part1 #btn #apple {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.blue-section .part1 #btn #apple #p-apple {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.blue-section .part1 #btn #google {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5px;
+  margin-bottom: 10%;
+}
+.blue-section .part1 #btn #google #p-google {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.blue-section .part2 {
+  position: absolute;
+  width: 654px;
+  height: 350px;
+  left: 639px;
+  top: -78px;
+}
+
+/* footer */
+.footer {
+  margin-top: 100px;
+}
+
+.footer-container .row {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.footer-container .row .col25 {
+  width: 25%;
+}
+
+.footer-container .row .col25 ul li {
+  list-style: none;
+}
+
+.footer-container .row .col25 a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Poppins";
+  font-style: normal;
+}
+footer p {
+  font-family: "Poppins";
+  font-style: normal;
+
+}
+@media only screen and (max-width: 991px) {
+  .row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row .col50 {
+    width: 100%;
+  }
+  .row .col50 h2 {
+    font-size: 20px;
+    width: 100%;
+  }
+  .row .col50 p {
+    width: 100%;
+  }
+
+  .second-section .row .col50 h2 {
+    margin-top: 75%;
+  }
+
+  .service .row .col75 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 81px;
+    width: 100;
+    height: 446px;
+  }
+  .ellipse {
+    width: 50px;
+    height: 50px;}
+
+  .fourth-section {
+    margin-top: 38%;
+  }
+
+  .blue-section .part1 #btn {
+    margin-top: 10%;
+  }
+  .part2 {
+    display: none;
+  }
+
+  /* footer */
+  .footer-container .row {
+    display: flex;
+    gap: 50px;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #footer {
+    display: none;
+  }
+  #bas {
+    display: none;
+  }
+  #logo {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fourth-section{
+    margin-top: 60%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  /* navbar */
+  .midle-nav a {
+    font-size: 10px;
+  }
+
+  /* second-section */
+  .second-section .row .col50 h2 {
+    margin-top: 95%;
+  }
+
+  /* fourth-section */
+  .fourth-section {
+    margin-top: 95%;
+  }
+}
+@media only screen and (max-width: 600px) {
+
+   /* navbar */
+ /* .midle-nav { 
+    display: none;
+  }  */
+ #download {
+    display: none;
+  }
+  .checkbtn {
+    display: block;
+  }
+  
+.midle-nav{
+  position: absolute;
+  width: 30%;
+  height: 40vh;
+  top: 80px;
+  right: -100%;
+  text-align: center;
+  text-transform: all .5s;
+  background: #144f9b;
+}
+nav .midle-nav li{
+  display: block;
+}
+nav .midle-nav li a {
+  color: #ffffff;
+}
+
+#check:checked ~ ul{
+  right: 0;
+}
+  /* .second-section */
+  .second-section .row .col50 h2 {
+    margin-top: 110%;
+  }
+
+  /* third-section */
+
+  .service .row .col75 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom:20%;
+  }
+  .fourth-section {
+    margin-top: 120%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+ h2{
+  font-size: 20px;
+ }
+ .midle-nav{
+  position: absolute;
+  width: 30%;
+  height: 15vh;
+  top: 80px;
+  right: -100%;
+  text-align: center;
+  text-transform: all .5s;
+  background: #144f9b;
+}
+ 
+  .service p {
+  font-size: 13px;
+ }
+ 
+  .fourth-section {
+    margin-top: 155%;
+  }
+
+  .blue-section .part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .blue-section .part1 p {
+    width: 250px;
+    height: 80px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 40px;
+    color: #ffffff;
+  }
+  .blue-section .part1 #btn {
+    display: flex;
+    flex-direction: column;
+  }
+  button {
+    background-color: #000;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #apple {
+    margin-bottom: 5%;
+  }
+  #img-apple{
+    width: 30px;
+    height: 30px;
+  }
+
+  #google {
+    margin-bottom: 5px;
+  }
+
+  #bas {
+    display: none;
+  }
+  #logo {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .midle-nav{
+    position: absolute;
+    width: 30%;
+    height: 20vh;
+    top: 80px;
+    right: -100%;
+    text-align: center;
+    text-transform: all .5s;
+    background: #144f9b;
+  }
+  .fourth-section {
+    margin-top: 180%;
+  }
+}
