@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 10px;
   box-sizing: border-box;
+  text-decoration: none;
 }
 body {
   width: 100%;
@@ -295,6 +296,11 @@ button {
   font-style: normal;
 }
 footer p {
+  font-family: "Poppins";
+  font-style: normal;
+
+}
+.footer a{
   font-family: "Poppins";
   font-style: normal;
 
