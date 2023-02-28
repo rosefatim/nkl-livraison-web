@@ -27,25 +27,32 @@
 </head>
 
 <body>
-    
-        <nav class="nav">
 
-            <input type="checkbox" id="check">
+    <header class="nav">
+        <div class="container">
+            <!-- <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
                 <i class="fa-solid fa-bars"></i>
-            </label>
+            </label>  -->
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo">
+            </div>
+            <nav class="tab">
+                <ul class="midle-nav">
+                    <li><a href="#">L'entreprise </a></li>
+                    <li><a href="#">Nos services</a></li>
+                    <li id="last"><a href="#">Nos apps</a></li>
 
-            <img src="./images/logo.png" alt="logo">
-            <ul class="midle-nav">
-                <li><a href="#">L'entreprise </a></li>
-                <li><a href="#">Nos services</a></li>
-                <li id="last"><a href="#">Nos apps</a></li>
-                <a href="" class="btn" id="download">Téléchargez</a>
-            </ul>
-    
-           
-        </nav>
-   
+                </ul>
+            </nav>
+            <div>
+                <a href="" class="download_btn" id="download">Téléchargez</a>
+            </div>
+        </div>
+
+    </header>
+
+
     <section class="first-section">
         <div class="row ">
             <div class="col50">
@@ -65,7 +72,7 @@
                     livraison
                     et notre service après livraison est disponible 24h/24.
                 </p>
-                <a href="#" class="btn">Commencez maintenant</a>
+                <a href="#" class="download_btn">Commencez maintenant</a>
             </div>
             <div class="col50 row1">
                 <img src="./images//livreur.png" alt="livreur" id="livreur"
@@ -80,8 +87,8 @@
     <section class="second-section">
         <div class="row">
             <div class="col50  wow animate__animated animate__fadeInLeft">
-                <img src="./images/Rectangle 1.png" alt="rect1" class="rect1" style="max-width:100%;height:auto ;">
-                <img src="./images/partner.png" alt="parter" class="rect2" style="max-width:100%;height:auto ;">
+                <img src="./images/Rectangle 1.png" alt="rect1" class="img1" style="max-width:100%;height:auto ;">
+                <img src="./images/partner.png" alt="parter" class="img2" style="max-width:100%;height:auto ;">
 
             </div>
             <div class="col50  partenariat wow animate__animated animate__fadeInRight">
@@ -93,13 +100,13 @@
                     iure earum, expedita consequuntur saepe animi officiis
                     consequatur assumenda! Eligendi dolorum unde impedit id?
                 </p>
-                <a href="" class="btn">Devenez un partenaire</a>
+                <a href="" class="download_btn">Devenez un partenaire</a>
             </div>
         </div>
     </section>
 
 
-    <section class="service">
+    <section class="third-section">
         <div class="row">
             <div class="col25 ">
                 <h2 class="wow animate__animated animate__fadeInRight">Nos
@@ -162,39 +169,23 @@
     </section>
 
 
-     <section class="fourth-section">
+    <section class="fourth-section">
         <img src="./images/Group 3.png" style="max-width:100%;height:auto ;">
-        <!-- <img src="./images/Rectangle 3.png" class="rect3 wow animate__animated animate__fadeInDown"
-            style="max-width:100%; height:auto; ">
-        <div class="grid">
-            <img src="./images/Rectangle 4.png" class="rect4" style="max-width:100%;height:auto ;">
-            <span id="reason">Pourquoi choisir NKL Livraison?</span>
-            <div class="group">
-                <div class="rect5"></div>
-                <div class="rect6"></div>
-                <div class="rect7"></div>
-                <div class="rect8"></div>
-            </div>
-        </div>  -->
     </section>
 
 
-     <section class="blue">
+    <section class="blue">
         <div class=" row blue-section">
             <div class="part1">
                 <p id="part1">Profiter d'une nouvelle expérience de livraison</p>
                 <div id="btn">
-                    <a href="">
-                        <button id="apple">
+                    <a href="https://apps.apple.com/us/app/delaala/id1629963079" class="app-btn" id="apple">
                             <img src="./images/apple2.png" id="img-apple" style="width:50px; height:50px;">
-                            <span id="p-apple">Download on the APP Store</span>
-                        </button>
+                            <span style="font-size: 8px;" id="p-apple">Download on the APP Store</span>
                     </a>
-                    <a href="">
-                        <button id="google">
+                    <a href="https://play.google.com/store/apps/details?id=com.xearth.nkllivraison&hl=fr" class="app-btn" id="google">
                             <img src="./images/play2.jpg">
-                            <span id="p-google" style="margin-left: 5px;">GET IT ON <br>Google Play</span>
-                        </button>
+                            <span id="p-google" style="font-size: 8px;">GET IT ON <br>Google Play</span>
                     </a>
                 </div>
             </div>
@@ -202,10 +193,10 @@
                 <img src="./images/Group 4.png" style="max-width:100%;height:auto ;">
             </div>
         </div>
-    </section> 
+    </section>
 
 
-     <footer>
+    <footer>
         <div class="footer-container">
             <div class="row">
                 <div class="col25 wow animate__animated animate__fadeInDown" id="logo">
@@ -226,17 +217,13 @@
 
                         <h4><a href="">Entreprise</a></h4>
                         <li><a href="">A propos de nous </a></li>
-                        <li><a href="">Carrière</a></li>
-                        <li><a href="">Blog</a></li>
                     </ul>
                 </div>
                 <div class="col25 wow animate__animated animate__fadeInDown" id="footer">
                     <ul>
 
                         <h4><a href="">Nos sercvices </a></h4>
-                        <li><a href="">Service client</a></li>
                         <li><a href="">Politique de confidentialité</a></li>
-                        <li><a href="">FAQs</a></li>
                     </ul>
                 </div>
                 <div class="col25 wow animate__animated animate__fadeInDow" id="footer">
@@ -249,15 +236,12 @@
                 </div>
             </div>
             <div class="wow  animate__animated animate__fadeInDown">
-                <p style="text-align: center;">&copy; copyright NKL-Livraison 2022 . powered  by<a href="https://xearth.in/"  target="__blank" style="color: #144f9b;">Xearth</a>
+                <p style="text-align: center;">&copy; copyright NKL-Livraison 2022 . powered by<a
+                        href="https://xearth.ci/" target="__blank" style="color: #144f9b;">Xearth</a>
                 </p>
             </div>
         </div>
-    </footer> 
-
-
-
-
+    </footer>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script type="text/javascript">
         new WOW().init()
