@@ -11,7 +11,7 @@
 body {
   max-width: 1800px;
   margin: 0 auto;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   /* box-sizing: border-box; */
   overflow-x: hidden;
 
@@ -120,6 +120,9 @@ header .container ul li a:hover {
   width: 127px;
 }
 
+header .container .menu{
+  display: none;
+}
 
 
 /* buttons */
@@ -190,27 +193,40 @@ header .container ul li a:hover {
   border-bottom: 1px solid #d9d9d9;
 }
 
-.ellipse {
-  width: 70px;
-  height: 70px;
+ .ellipse {
+  position: relative;
   background: rgba(20, 79, 155, 0.2);
   border-radius: 50%;
+  width: 70px;
+  height: 70px;
+} 
+.img-icon{
+position: absolute;
+  width: 70px;
+  height: 70px;
+  top: -3%;
+  left: -2%;
 }
 
 
 /* FOUTH SECTION */
 .fourth-section {
   margin-left: 10%;
-  margin-top: 15%;
+  margin-top: 20%;
 }
 
 /* fifth-section */
 .blue {
   position: relative;
-  margin-bottom: 100px;
+ margin-top: 15%; 
+  /* margin-bottom: 100px; */
   left: 0px;
   height: 280px;
   background-color: #144f9b;
+}
+.blue .blue-section{
+  display: flex;
+  justify-content: center;
 }
 
 .blue-section .part1 p {
@@ -232,28 +248,33 @@ header .container ul li a:hover {
   cursor: pointer;
   align-items: center;
   display: flex;
-  font-size: 12px;
+  /* font-size: 16px; */
   color: #ffffff;
 }
 
+.app-btn span{
+   font-size: 12px; 
+
+}
 
 
 .blue-section  #google {
   margin-left: 5px;
 }
 
-
 .blue-section .part2 {
-  position: absolute;
+  /* position: absolute; */
   width: 654px;
   height: 350px;
-  left: 639px;
-  top: -70px;
-}
+  margin-top: -89px;
+  /* left: 639px;
+  top: -40px; */
+} 
 
 /* footer */
-
-
+footer{
+  margin-top: 10%;
+}
 .footer-container .row {
   border-bottom: 1px solid #d9d9d9;
 }
@@ -323,6 +344,13 @@ header .container ul li a:hover {
     width: 50px;
     height: 50px;
   }
+  .img-icon{
+    position: absolute;
+  width: 50px;
+  height: 50px;
+  top: -5%;
+  left: -2%;
+  }
 
   .blue-section .part1 #btn {
     margin-top: 10%;
@@ -361,9 +389,20 @@ img{
   width :80%;
 } */
 
+
+ header .logo{
+  width: 100px;
+  height: 100px;
+ }
+header .container .menu{
+  display: block;
+
+}
+
 header nav {
   display: none;
 }
+
 header .download_btn{
   display: none;
 }
@@ -390,7 +429,7 @@ p{
   }
 
   .fourth-section{
-    margin-top: 180%;
+    margin-top: 170%;
   }
 
 }
